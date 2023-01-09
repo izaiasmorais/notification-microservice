@@ -1,5 +1,5 @@
 <h1 align='center'>
-   Notification Microservice
+   💬 Notification Microservice
 </h1>
 
 <div>
