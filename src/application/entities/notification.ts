@@ -1,6 +1,8 @@
+import { Content } from "./content";
+
 export interface NotificationProps {
   recipientId: string;
-  content: string;
+  content: Content; // we can separete this element
   category: string;
   readAt?: Date | null;
   createdAt: Date;
@@ -18,14 +20,14 @@ export class Notification {
   }
 
   public get recipientId(): string {
-    return this.props.content;
+    return this.props.recipientId;
   }
 
-  public set content(content: string) {
+  public set content(content: Content) {
     this.props.content = content;
   }
 
-  public get content(): string {
+  public get content(): Content {
     return this.props.content;
   }
 
