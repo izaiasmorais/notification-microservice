@@ -10,3 +10,30 @@
 
 Aplicação que gerencia o envio de notificações para os demais serviçõs de uma aplicação.
 
+### Funcionalidades
+
+- Criar notificações
+
+## 🚀 Tecnologias
+
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NestJS](https://nestjs.com/)
+- [PrismaORM](https://www.prisma.io/)
+- [JestJS](https://jestjs.io/pt-BR/)
+
+
+## 💻 Clonando projeto
+
+```bash
+$ git clone https://github.com/izaiasmorais/notification-microservice.git && cd notification-microservice
+```
+
+```bash
+# Instalando dependências
+$ npm i
+
+# Rodando o projeto
+$ npm run dev
+
+```
