@@ -1,4 +1,4 @@
-import { Replace } from "src/helpers/replace";
+import { Replace } from "src/helpers/Replace";
 import { Content } from "./content";
 
 export interface NotificationProps {
